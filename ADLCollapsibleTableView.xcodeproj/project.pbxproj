@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB645AEF20475258004DEF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB645AEE20475258004DEF98 /* AppDelegate.swift */; };
+		DB645AF120475258004DEF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB645AF020475258004DEF98 /* ViewController.swift */; };
+		DB645AF420475258004DEF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB645AF220475258004DEF98 /* Main.storyboard */; };
+		DB645AF620475258004DEF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB645AF520475258004DEF98 /* Assets.xcassets */; };
+		DB645AF920475258004DEF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB645AF720475258004DEF98 /* LaunchScreen.storyboard */; };
+		DB645B0420475258004DEF98 /* ADLCollapsibleTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB645B0320475258004DEF98 /* ADLCollapsibleTableViewTests.swift */; };
+		DB645B0F20475258004DEF98 /* ADLCollapsibleTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB645B0E20475258004DEF98 /* ADLCollapsibleTableViewUITests.swift */; };
+		DB645B1D20475C51004DEF98 /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB645B1C20475C51004DEF98 /* CollapsibleTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB645B0020475258004DEF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB645AE320475258004DEF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB645AEA20475258004DEF98;
+			remoteInfo = ADLCollapsibleTableView;
+		};
+		DB645B0B20475258004DEF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB645AE320475258004DEF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB645AEA20475258004DEF98;
+			remoteInfo = ADLCollapsibleTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB645AEB20475258004DEF98 /* ADLCollapsibleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADLCollapsibleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB645AEE20475258004DEF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB645AF020475258004DEF98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB645AF320475258004DEF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB645AF520475258004DEF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB645AF820475258004DEF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB645AFA20475258004DEF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB645AFF20475258004DEF98 /* ADLCollapsibleTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADLCollapsibleTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB645B0320475258004DEF98 /* ADLCollapsibleTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADLCollapsibleTableViewTests.swift; sourceTree = "<group>"; };
+		DB645B0520475258004DEF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB645B0A20475258004DEF98 /* ADLCollapsibleTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADLCollapsibleTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB645B0E20475258004DEF98 /* ADLCollapsibleTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADLCollapsibleTableViewUITests.swift; sourceTree = "<group>"; };
+		DB645B1020475258004DEF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB645B1C20475C51004DEF98 /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB645AE820475258004DEF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB645AFC20475258004DEF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB645B0720475258004DEF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB645AE220475258004DEF98 = {
+			isa = PBXGroup;
+			children = (
+				DB645AED20475258004DEF98 /* ADLCollapsibleTableView */,
+				DB645B0220475258004DEF98 /* ADLCollapsibleTableViewTests */,
+				DB645B0D20475258004DEF98 /* ADLCollapsibleTableViewUITests */,
+				DB645AEC20475258004DEF98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB645AEC20475258004DEF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB645AEB20475258004DEF98 /* ADLCollapsibleTableView.app */,
+				DB645AFF20475258004DEF98 /* ADLCollapsibleTableViewTests.xctest */,
+				DB645B0A20475258004DEF98 /* ADLCollapsibleTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB645AED20475258004DEF98 /* ADLCollapsibleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DB645AEE20475258004DEF98 /* AppDelegate.swift */,
+				DB645AF020475258004DEF98 /* ViewController.swift */,
+				DB645B1C20475C51004DEF98 /* CollapsibleTableViewCell.swift */,
+				DB645AF220475258004DEF98 /* Main.storyboard */,
+				DB645AF520475258004DEF98 /* Assets.xcassets */,
+				DB645AF720475258004DEF98 /* LaunchScreen.storyboard */,
+				DB645AFA20475258004DEF98 /* Info.plist */,
+			);
+			path = ADLCollapsibleTableView;
+			sourceTree = "<group>";
+		};
+		DB645B0220475258004DEF98 /* ADLCollapsibleTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB645B0320475258004DEF98 /* ADLCollapsibleTableViewTests.swift */,
+				DB645B0520475258004DEF98 /* Info.plist */,
+			);
+			path = ADLCollapsibleTableViewTests;
+			sourceTree = "<group>";
+		};
+		DB645B0D20475258004DEF98 /* ADLCollapsibleTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB645B0E20475258004DEF98 /* ADLCollapsibleTableViewUITests.swift */,
+				DB645B1020475258004DEF98 /* Info.plist */,
+			);
+			path = ADLCollapsibleTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB645AEA20475258004DEF98 /* ADLCollapsibleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB645B1320475258004DEF98 /* Build configuration list for PBXNativeTarget "ADLCollapsibleTableView" */;
+			buildPhases = (
+				DB645AE720475258004DEF98 /* Sources */,
+				DB645AE820475258004DEF98 /* Frameworks */,
+				DB645AE920475258004DEF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADLCollapsibleTableView;
+			productName = ADLCollapsibleTableView;
+			productReference = DB645AEB20475258004DEF98 /* ADLCollapsibleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB645AFE20475258004DEF98 /* ADLCollapsibleTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB645B1620475258004DEF98 /* Build configuration list for PBXNativeTarget "ADLCollapsibleTableViewTests" */;
+			buildPhases = (
+				DB645AFB20475258004DEF98 /* Sources */,
+				DB645AFC20475258004DEF98 /* Frameworks */,
+				DB645AFD20475258004DEF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB645B0120475258004DEF98 /* PBXTargetDependency */,
+			);
+			name = ADLCollapsibleTableViewTests;
+			productName = ADLCollapsibleTableViewTests;
+			productReference = DB645AFF20475258004DEF98 /* ADLCollapsibleTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB645B0920475258004DEF98 /* ADLCollapsibleTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB645B1920475258004DEF98 /* Build configuration list for PBXNativeTarget "ADLCollapsibleTableViewUITests" */;
+			buildPhases = (
+				DB645B0620475258004DEF98 /* Sources */,
+				DB645B0720475258004DEF98 /* Frameworks */,
+				DB645B0820475258004DEF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB645B0C20475258004DEF98 /* PBXTargetDependency */,
+			);
+			name = ADLCollapsibleTableViewUITests;
+			productName = ADLCollapsibleTableViewUITests;
+			productReference = DB645B0A20475258004DEF98 /* ADLCollapsibleTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB645AE320475258004DEF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Arshwin Denuev Lal P M";
+				TargetAttributes = {
+					DB645AEA20475258004DEF98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB645AFE20475258004DEF98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB645AEA20475258004DEF98;
+					};
+					DB645B0920475258004DEF98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB645AEA20475258004DEF98;
+					};
+				};
+			};
+			buildConfigurationList = DB645AE620475258004DEF98 /* Build configuration list for PBXProject "ADLCollapsibleTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB645AE220475258004DEF98;
+			productRefGroup = DB645AEC20475258004DEF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB645AEA20475258004DEF98 /* ADLCollapsibleTableView */,
+				DB645AFE20475258004DEF98 /* ADLCollapsibleTableViewTests */,
+				DB645B0920475258004DEF98 /* ADLCollapsibleTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB645AE920475258004DEF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB645AF920475258004DEF98 /* LaunchScreen.storyboard in Resources */,
+				DB645AF620475258004DEF98 /* Assets.xcassets in Resources */,
+				DB645AF420475258004DEF98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB645AFD20475258004DEF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB645B0820475258004DEF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB645AE720475258004DEF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB645AF120475258004DEF98 /* ViewController.swift in Sources */,
+				DB645AEF20475258004DEF98 /* AppDelegate.swift in Sources */,
+				DB645B1D20475C51004DEF98 /* CollapsibleTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB645AFB20475258004DEF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB645B0420475258004DEF98 /* ADLCollapsibleTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB645B0620475258004DEF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB645B0F20475258004DEF98 /* ADLCollapsibleTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB645B0120475258004DEF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB645AEA20475258004DEF98 /* ADLCollapsibleTableView */;
+			targetProxy = DB645B0020475258004DEF98 /* PBXContainerItemProxy */;
+		};
+		DB645B0C20475258004DEF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB645AEA20475258004DEF98 /* ADLCollapsibleTableView */;
+			targetProxy = DB645B0B20475258004DEF98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB645AF220475258004DEF98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB645AF320475258004DEF98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB645AF720475258004DEF98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB645AF820475258004DEF98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB645B1120475258004DEF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB645B1220475258004DEF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB645B1420475258004DEF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE844VF3PC;
+				INFOPLIST_FILE = ADLCollapsibleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arshwin.ADLCollapsibleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB645B1520475258004DEF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE844VF3PC;
+				INFOPLIST_FILE = ADLCollapsibleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arshwin.ADLCollapsibleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB645B1720475258004DEF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE844VF3PC;
+				INFOPLIST_FILE = ADLCollapsibleTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arshwin.ADLCollapsibleTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADLCollapsibleTableView.app/ADLCollapsibleTableView";
+			};
+			name = Debug;
+		};
+		DB645B1820475258004DEF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE844VF3PC;
+				INFOPLIST_FILE = ADLCollapsibleTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arshwin.ADLCollapsibleTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADLCollapsibleTableView.app/ADLCollapsibleTableView";
+			};
+			name = Release;
+		};
+		DB645B1A20475258004DEF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE844VF3PC;
+				INFOPLIST_FILE = ADLCollapsibleTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arshwin.ADLCollapsibleTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADLCollapsibleTableView;
+			};
+			name = Debug;
+		};
+		DB645B1B20475258004DEF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE844VF3PC;
+				INFOPLIST_FILE = ADLCollapsibleTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arshwin.ADLCollapsibleTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADLCollapsibleTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB645AE620475258004DEF98 /* Build configuration list for PBXProject "ADLCollapsibleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB645B1120475258004DEF98 /* Debug */,
+				DB645B1220475258004DEF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB645B1320475258004DEF98 /* Build configuration list for PBXNativeTarget "ADLCollapsibleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB645B1420475258004DEF98 /* Debug */,
+				DB645B1520475258004DEF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB645B1620475258004DEF98 /* Build configuration list for PBXNativeTarget "ADLCollapsibleTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB645B1720475258004DEF98 /* Debug */,
+				DB645B1820475258004DEF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB645B1920475258004DEF98 /* Build configuration list for PBXNativeTarget "ADLCollapsibleTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB645B1A20475258004DEF98 /* Debug */,
+				DB645B1B20475258004DEF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB645AE320475258004DEF98 /* Project object */;
+}
